@@ -43,3 +43,8 @@
     cursor: pointer;
 }
 
+.input-error {
+    font-size: 15px;
+    color: rgb(188, 73, 73);
+}
+

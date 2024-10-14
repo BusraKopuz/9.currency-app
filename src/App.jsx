@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import Currency from './components/Currency';
+import React from 'react';
+import Home from './pages/Home';
 
 
 import './App.css'
 
-
 function App() {
   
-
   return (
-    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-        <Currency />
+    <div >
+       <Home />
     </div>
   )
 }
